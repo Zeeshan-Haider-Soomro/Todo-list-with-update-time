@@ -28,17 +28,39 @@ button{
 }
 .tasks{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: gray;
     padding: 20px;
+
 }
-.innertask{
+/* .innertask{
    padding: 10px;
     background-color: aliceblue;
     width: 500px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+} */
+.div1{
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+    width: auto;
+    border-radius: 20px;
 }
-
+.div2{
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+    width: auto;
+    border-radius: 20px;
+}
+@media screen and (max-width:770px) {
+    .tasks{
+        display: block;
+    }
+    .div2{
+        margin-top: 20px;
+    }
+}
