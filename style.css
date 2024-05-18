@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #b4da9f;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+input{
+    padding: 10px;
+    width: 300px;
+    border-right: none;
+    
+}
+button{
+    padding: 10px;
+    width: 200px;
+    border-left: none;
+    background-color: rgb(203, 75, 75);
+    color: aliceblue;
+}
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+.innertask{
+   padding: 10px;
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
