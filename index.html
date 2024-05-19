@@ -18,12 +18,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
-      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -38,6 +32,7 @@
       <input type="text" name="" id="userInput" placeholder="Enter Your Task" />
       <button onclick="taskGenerate()">Add task</button>
     </div>
+    <div class="errorPlus"><p id="error"></p></div>
     <div class="tasks">
       <div class="div1">
         <h1><i class="fa-solid fa-list-check"></i> Tasks</h1>
@@ -50,7 +45,8 @@
     </div>
     <div class="footer">
       <footer>
-        Copyright © 2024 Zeeshan Haider Soomro. All Rights Reseved.
+        Copyright © <span id="yearChanger"></span> Zeeshan Haider Soomro. All
+        Rights Reseved.
       </footer>
     </div>
 
