@@ -9,6 +9,8 @@ function taskGenerate() {
   let spani = document.querySelector("#spani");
   let error = document.querySelector("#error");
 
+  let date = new Date();
+
   if(userInput.value.trim() == ""){
     error.innerText = "you must write something !!"
     // alert("you must write something")
